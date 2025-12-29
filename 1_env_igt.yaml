@@ -1,0 +1,19 @@
+# environment_igt.yml
+name: geo_igt_pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - geopandas>=1.0
+  - geoalchemy2
+  - psycopg2
+  - jupyter
+  - pandas
+  - shapely
+  - pyogrio
+  - contextily
+  - matplotlib
+  - folium
+  - owslib
+  - requests
